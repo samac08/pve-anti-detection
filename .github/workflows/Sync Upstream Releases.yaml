@@ -13,8 +13,8 @@ jobs:
   sync-releases:
     runs-on: ubuntu-latest
     env:
-      UPSTREAM_OWNER: cdgriffith
-      UPSTREAM_REPO: FastFlix
+      UPSTREAM_OWNER: lixiaoliu666
+      UPSTREAM_REPO: pve-anti-detection
       PER_PAGE: "100"
     steps:
       - name: Checkout repo (needed for GitHub context)
